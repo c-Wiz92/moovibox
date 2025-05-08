@@ -1,0 +1,90 @@
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+input{
+    width: 80%;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 30px;
+    margin: 10px auto;
+    display: block;
+}   
+label{
+    display: block;
+    position: relative;
+    top: 10px;
+}
+.SignUp{
+    background-color: rgba(41, 81, 53, 1);
+    width: 35%;
+    height: 90%;
+    border-radius: 5px;
+    margin-left: 2%;
+}
+.green-text{
+    color: rgba(159, 204, 46, 1);
+}
+.website-name-big{
+    font-size: 40px;
+    letter-spacing: 20px;
+    margin-left: 15px;
+    color: rgba(159, 204, 46, 1);
+}
+.green-box{
+    width: 400px;
+    height: 80px;
+    border: 1px solid rgba(159, 204, 46, 1);
+    border-radius: 5px;
+    position: absolute;
+    left: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn-captcha, #btn-tANDc{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: -40%;
+    top: 10px;
+}
+.form-btn{
+    width: 120px;
+    height: 35px;
+    border: 1px solid rgba(242, 233, 228, 1);
+    border-radius: 18px;
+    background-color: rgba(41, 81, 53, 1);
+    color: rgba(242, 233, 228, 1);
+}
+.form-btn:hover{
+    border: 1px solid rgba(159, 204, 46, 1);
+    color: rgba(159, 204, 46, 1);
+}
+#join-moovibox{
+    position: relative;
+    left: -24%;
+    margin-top: 35px;
+}
+#captcha-label{
+    top: -20px;
+    left: -24%;    
+}
+#tANDc-label{
+    top: -20px;
+    left: -7%;
+}
+#btn-log-in{
+    margin-top: 20px;
+}
+#already-an-user{
+    position: relative;
+    left: -90px;
+    margin-top: 15px;
+}
+.error{
+    color: rgb(246, 255, 0);
+}

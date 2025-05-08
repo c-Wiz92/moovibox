@@ -1,0 +1,39 @@
+#user-greeting{
+    position: relative;
+    top: 2%;
+    left: 2%;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#recently-watched{
+    color: rgba(159, 204, 46, 1);
+    text-align: left;
+    font-weight: lighter;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin-left: 5%;
+}
+.recentmovies-container{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#user-lists{
+    color: rgba(159, 204, 46, 1);
+    text-align: left;
+    font-weight: lighter;
+}
+.userlist-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4%;
+}
